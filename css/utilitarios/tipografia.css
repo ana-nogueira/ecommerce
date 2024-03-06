@@ -1,0 +1,44 @@
+.font-1-xs {
+    font: 400 .875rem "Roboto", sans-serif;
+}
+
+.font-1-s {
+    font: 400 1rem/1.37 'Roboto', sans-serif;
+}
+
+.font-1-m,
+.font-1-m-b {
+    font: 400 1.25rem/1.37 'Roboto', sans-serif;
+}
+
+.font-1-m-b {
+    font-weight: 600;
+}
+
+.font-1-l {
+    font: 400 1.5rem 'Roboto', sans-serif;
+}
+
+.font-1-xl {
+    font: 600 2rem 'Roboto', sans-serif;
+}
+
+.font-1-xxl {
+    font: 600 2.5rem 'Roboto', sans-serif;
+}
+
+.font-2-m {
+    font: 900 2rem 'Archivo', sans-serif;
+}
+
+.font-2-l {
+    font: 900 2.5rem 'Archivo', sans-serif;
+}
+
+.font-2-xl {
+    font: 900 3rem 'Archivo', sans-serif;
+}
+
+.font-2-xxl {
+    font: 900 4rem 'Archivo', sans-serif;
+}
