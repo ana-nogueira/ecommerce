@@ -64,10 +64,3 @@
     cursor: pointer;
 }
 
-.home {
-    background-image: url("/src/img/home.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-}

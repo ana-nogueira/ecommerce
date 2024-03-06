@@ -31,3 +31,11 @@ img {
     max-width: 1240px;
     margin: 0 auto;
 }
+.botao {
+    display: inline-block;
+    padding: 13px 50px;
+    max-width: max-content;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}

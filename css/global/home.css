@@ -1,0 +1,49 @@
+.home {
+    background-image: url("/src/img/home.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.home-info {
+    padding-top: 100px;
+    margin-left: 5px;
+}
+
+.home-info h1 {
+    margin-bottom: 30px;
+}
+
+.home-info p {
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.shop {
+    background-color: var(--cor-3);
+    color: var(--cor-0);
+    margin-bottom: 50px;
+}
+
+.shop:hover {
+    background-color: var(--cor-0);
+    color: var(--cor-3);
+    transition: .3s;
+    border: solid 1px var(--cor-3);
+    font-weight: 500;
+}
+
+.home-numbers {
+    margin: 20px 0 5px 10px;
+}
+
+.home-numbers ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.home-numbers li {
+    border-right: solid 2px var(--cor-1);
+}
