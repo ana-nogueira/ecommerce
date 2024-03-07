@@ -1,105 +1,106 @@
 .home {
-background-color: var(--cor-1);
+  background-color: var(--cor-1);
 }
 
 .home-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .home-img img {
-    display: block;
-    max-width: 600px;
-    align-self: flex-end;
+  display: block;
+  max-width: 600px;
+  align-self: flex-end;
 }
 
 .home-img {
-    align-self: flex-end;
-    margin-left: 20px;
-    flex: 0 2 400px;
+  align-self: flex-end;
+  margin-left: 20px;
+  flex: 0 2 400px;
 }
 
 .home-info {
-padding-top: 20px;
-    margin-left: 5px;
-align-self: center;
-    flex: 1 1 300px;
+  padding-top: 20px;
+  margin-left: 5px;
+  align-self: center;
+  flex: 1 1 300px;
 }
 
 .home-info h1 {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .home-info p {
-letter-spacing: 1px;
-    margin-bottom: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
 }
 
 .shop {
-background-color: var(--cor-3);
-    color: var(--cor-0);
-margin-bottom: 40px;
+  background-color: var(--cor-3);
+  color: var(--cor-0);
+  margin-bottom: 40px;
 }
 
 .shop:hover {
-background-color: var(--cor-0);
-    color: var(--cor-3);
-transition: 0.3s;
-    border: solid 1px var(--cor-3);
-    font-weight: 500;
+  background-color: var(--cor-0);
+  color: var(--cor-3);
+  transition: 0.3s;
+  border: solid 1px var(--cor-3);
+  font-weight: 500;
 }
 
 .home-numbers {
-margin: 5px 0 5px 10px;
+  margin: 5px 0 5px 10px;
 }
 
 .home-numbers ul {
-display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .home-numbers li {
-border-right: solid 2px var(--cor-1);
-flex: 1 1 30px;
+  border-right: solid 2px var(--cor-1);
+  flex: 1 1 30px;
 }
 .brands-bg {
-    background-color: var(--cor-3);
+  background-color: var(--cor-3);
 }
 
 .brands {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .brands-img {
-    margin: 30px 5px
+  margin: 30px 5px;
 }
 @media (max-width: 1092px) {
-    .home-img img {
-        max-width: 400px;
-    }
+  .home-img img {
+    max-width: 400px;
+  }
 
-    .home-numbers h3 {
-        font-size: 1.5rem !important;
-    }
+  .home-numbers h3 {
+    font-size: 1.5rem !important;
+  }
 
   .home-info h1 {
     font-size: 2rem !important;
-        text-align: center;
-    }
+    text-align: center;
+  }
 
   .home-info {
-      text-align: center;
+    text-align: center;
   }
   .brands-img img {
-      max-width: 150px;
-      margin-right: 20px;
+    max-width: 150px;
+    margin-right: 20px;
   }
 
   .brands {
-      justify-content: center;
+    justify-content: center;
   }
 }
