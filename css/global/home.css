@@ -64,6 +64,19 @@ display: flex;
 border-right: solid 2px var(--cor-1);
 flex: 1 1 30px;
 }
+.brands-bg {
+    background-color: var(--cor-3);
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.brands-img {
+    margin: 30px 5px
+}
 @media (max-width: 1092px) {
     .home-img img {
         max-width: 400px;
@@ -80,5 +93,13 @@ flex: 1 1 30px;
 
   .home-info {
       text-align: center;
+  }
+  .brands-img img {
+      max-width: 150px;
+      margin-right: 20px;
+  }
+
+  .brands {
+      justify-content: center;
   }
 }
