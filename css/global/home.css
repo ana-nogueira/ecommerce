@@ -7,8 +7,10 @@
 }
 
 .home-info {
-    padding-top: 100px;
+    box-sizing: border-box;
+        padding-top: 50px;
     margin-left: 5px;
+
 }
 
 .home-info h1 {
@@ -23,7 +25,7 @@
 .shop {
     background-color: var(--cor-3);
     color: var(--cor-0);
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .shop:hover {
@@ -46,4 +48,19 @@
 
 .home-numbers li {
     border-right: solid 2px var(--cor-1);
+}
+@media (min-width: 1500px) {
+    .home-info {
+        padding-top: 100px;
+    }
+
+    .home-info h1 {
+        font-size: 4rem !important;
+        margin-bottom: 40px;
+    }
+
+    .home-info p {
+        font-size: 1rem !important;
+        margin-bottom: 30px;
+    }
 }
