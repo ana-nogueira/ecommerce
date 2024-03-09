@@ -1,12 +1,14 @@
 // dropdown menu
 export default function initDropDown() {
-  const hamburgerMenu = document.querySelector("[data-hamburger]");
-  const headerMenu = document.querySelectorAll(".header-icons");
+  const menuHamburger = document.querySelector('[data-menu="menu-hamburger"]');
+  const btnHamburger = document.querySelector(".btn-hamburger");
+  const btnFecha = document.querySelector(".close-btn");
 
-  window.addEventListener("resize", function () {
-    const larguraDaPagina = window.innerWidth;
-    if (larguraDaPagina <= 930) {
-      hamburgerMenu.classList.add("hamburger");
-    }
+  btnHamburger.addEventListener("click", () => {
+    menuHamburger.classList.add("active");
+  });
+
+  btnFecha.addEventListener("click", () => {
+    menuHamburger.classList.remove("active");
   });
 }

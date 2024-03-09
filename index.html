@@ -16,10 +16,11 @@
 
   <header class="container">
     <div class="header">
+      <button class="btn-hamburger"><img src="./src/img/burger.png" alt=""></button>
       <div class="logo" id="#">
         <h1 class="font-2-m">SHOP.CO</h1>
       </div>
-      <nav class="header-nav active">
+      <nav class="header-nav">
         <ul class="font-1-s">
           <li><a href="" class="cor-3">Shop</a></li>
           <li><a href="" class="cor-3">On Sale</a></li>
@@ -27,7 +28,7 @@
           <li><a href="" class="cor-3">Brands</a></li>
         </ul>
       </nav>
-      <div class="search active">
+      <div class="search">
         <form>
           <button type="submit" class="search-btn">
             <img src="./src/img/lupa.png" alt="" srcset="" />
@@ -36,12 +37,37 @@
         </form>
       </div>
       <div class="header-icons">
-        <div data-hamburger=""></div>
-        <img src="./src/img/carshop.png" alt="Cart" />
-        <img src="./src/img/login.png" alt="Login" />
+        <button>
+          <img src="./src/img/carshop.png" alt="Cart" />
+        </button>
+        <button>
+          <img src="./src/img/login.png" alt="Login" />
+        </button>
       </div>
     </div>
   </header>
+  <!----search-mobile ---->
+
+  <div class="search mobile">
+    <form>
+      <button type="submit" class="search-btn">
+        <img src="./src/img/lupa.png" alt="" srcset="" />
+      </button>
+      <input type="text" placeholder="Search for products..." />
+    </form>
+  </div>
+
+  <!------menu-hamburger ---->
+  <nav class="header-nav hamburger" data-menu="menu-hamburger">
+    <button class="close-btn">X</button>
+    <ul class="font-1-m">
+      <li><a href="" class="cor-3">Shop</a></li>
+      <li><a href="" class="cor-3">On Sale</a></li>
+      <li><a href="" class="cor-3">New Arrivals</a></li>
+      <li><a href="" class="cor-3">Brands</a></li>
+    </ul>
+  </nav>
+
 
   <!-------- home --------->
 
