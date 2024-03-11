@@ -86,10 +86,14 @@
   .home-numbers h3 {
     font-size: 1.5rem !important;
   }
+  .home-numbers ul {
+    gap: 20px;
+  }
 
   .home-info h1 {
     font-size: 2rem !important;
     text-align: center;
+    margin-top: 20px;
   }
 
   .home-info {
@@ -101,5 +105,20 @@
   }
   .brands {
     justify-content: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .home-content {
+    justify-content: center;
+  }
+  .home-info p {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .home-img img {
+    max-width: 300px;
   }
 }

@@ -1,5 +1,6 @@
-@import './global/global.css';
-@import './global/header.css';
-@import './utilitarios/cores.css';
-@import './utilitarios/tipografia.css';
-@import './global/home.css';
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./utilitarios/cores.css";
+@import "./utilitarios/tipografia.css";
+@import "./global/home.css";
+@import "./global/products.css";
