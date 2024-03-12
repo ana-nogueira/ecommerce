@@ -1,0 +1,13 @@
+.dress-style-bg {
+  background-color: var(--cor-2);
+  border-radius: 20px;
+}
+.dress-style {
+  display: grid;
+  padding: 40px;
+  place-items: center;
+  gap: 60px;
+}
+.dress-style h1 {
+  margin-top: 40px;
+}

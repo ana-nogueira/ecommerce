@@ -2,5 +2,6 @@
 @import "./global/header.css";
 @import "./utilitarios/cores.css";
 @import "./utilitarios/tipografia.css";
-@import "./global/home.css";
-@import "./global/products.css";
+@import "./home/home.css";
+@import "./products/products.css";
+@import "./dress-style/dress.css";
