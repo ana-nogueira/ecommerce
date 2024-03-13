@@ -1,0 +1,33 @@
+.newsletter {
+    background-color: var(--cor-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+
+}
+
+.newsletter h1 {
+    color: var(--cor-0);
+}
+
+.newsletter-form {
+    display: grid;
+    gap: 20px;
+}
+
+.newsletter-form div {
+    display: flex;
+}
+
+.newsletter-form i {
+    background-color: var(--cor-1);
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter-form input {
+    border: none;
+    background-color: var(--cor-1);
+    border-radius: 0 5px 5px 0;
+}
