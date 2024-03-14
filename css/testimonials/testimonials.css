@@ -36,6 +36,9 @@
 }
 
 
+.swiper-slide {
+  min-width: 250px;
+}
 @media (min-width: 960px) {
   .swiper-slide {
     height: 160px !important;

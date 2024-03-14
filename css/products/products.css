@@ -28,6 +28,11 @@
   justify-content: center;
   max-width: 300px;
   gap: 10px;
+  cursor: pointer;
+}
+
+.item:hover {
+transform: translate3d(0,-5px,0);
 }
 
 .item-img {
